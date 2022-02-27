@@ -8,7 +8,7 @@ Suite Teardown     Stop Remote Server
 
 ***Test Cases ***
 TC01 Start Browser on Windows
-    Add Image Path      ../Resources/SikuliImages
+    Add Image Path      ../Resources/Images
     Click       Windows_Start_Button.png
     Click       Google_Chrome.png
     Sleep       5
