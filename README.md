@@ -10,10 +10,11 @@ This library supports python 2.x, and python 3.x
 2) Python
 3) Robotframework - pip install robotframework
 4) SikuliLibrary - pip install robotframework-SikuliLibrary
-5) Setup Environment PATH Variable for 
+5) SeleniumLibrary - pip install --upgrade robotframework-seleniumlibrary
+6) Setup Environment PATH Variable for 
    1) Java
    2) Python
-6) Windows Firewall - Permit every type of connection to the sikuli jar 
+7) Windows Firewall - Permit every type of connection to the sikuli jar 
 
 
 # References
