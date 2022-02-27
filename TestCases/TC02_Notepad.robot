@@ -1,6 +1,6 @@
 *** Settings ***
 Library            SikuliLibrary     mode=NEW
-# Suite Setup        Start Sikuli Process
+Suite Setup        Start Sikuli Process
 Suite Teardown     Stop Remote Server
 
 
@@ -9,7 +9,6 @@ Suite Teardown     Stop Remote Server
 
 ***Test Cases ***
 TC01 Start Notepad and Type Text
-    Start Sikuli Process
     Add Image Path      ../Resources/SikuliImages
     Click       Search_Programs_Button.png
     Click       Type_to_search_Textbox.png
