@@ -16,7 +16,7 @@ TC01 Start Browser on Windows
     Sleep       5
     Press Special Key       ENTER
 #    Press Keys      button      ENTER
-    Wait Until Screen Contain       chrome_close_button.png
+    Wait Until Screen Contain       chrome_close_button.png     10
     Text Should Exist       Google
     Screen Should Contain       Google
     Click       chrome_close_button.png
