@@ -14,6 +14,8 @@ TC01 Start Notepad and Type Text
     Click       Search_Programs_Button.png
     Click       Type_to_search_Textbox.png
     Input Text      Type_to_search_Textbox      Notepad
+    ${notepadtext}=     Get Text    Notepad_app.png
+    Screen should contain       ${notepadtext}
     Click       Notepad_app.png
     Sleep       5
     Input Text      notepad_workspace.png    Hello World
