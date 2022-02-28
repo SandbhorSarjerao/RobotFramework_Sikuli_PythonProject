@@ -5,10 +5,11 @@ Suite Setup        Start Sikuli Process
 Suite Teardown     Stop Remote Server
 
 *** Variables ***
+${Image_Path}       ../Resources/Images
 
 ***Test Cases ***
 TC01 Start Browser on Windows
-    Add Image Path      ../Resources/Images
+    Add Image Path      ${Image_Path} 
     Highlight       Windows_Start_Button.png        5
     Click       Windows_Start_Button.png
     Click       Google_Chrome.png
