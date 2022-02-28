@@ -17,6 +17,7 @@ TC01 Start Browser on Windows
     Press Special Key       ENTER
 #    Press Keys      button      ENTER
     Sleep       10
+    Text Should Exist       Google
     Click       chrome_close_button.png
 
 
