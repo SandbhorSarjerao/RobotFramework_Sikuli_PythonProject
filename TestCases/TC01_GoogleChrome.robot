@@ -9,6 +9,7 @@ Suite Teardown     Stop Remote Server
 ***Test Cases ***
 TC01 Start Browser on Windows
     Add Image Path      ../Resources/Images
+    Highlight       Windows_Start_Button.png        5
     Click       Windows_Start_Button.png
     Click       Google_Chrome.png
     Wait For Image      google_url_addressbar.png
