@@ -16,7 +16,7 @@ TC01 Start Browser on Windows
     SikuliLibrary.Input Text      google_url_addressbar.png       https://www.google.com/
     Sleep       5
     Press Special Key       ENTER
-#    Press Keys      button      ENTER
+#    SeleniumLibrary.Press Keys      nme:button      ENTER
     Wait Until Screen Contain       chrome_close_button.png     10
     Text Should Exist       Google
     Screen Should Contain       Google
