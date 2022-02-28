@@ -20,6 +20,7 @@ This library supports python 2.x, and python 3.x
 # References
 1) http://sikuli.org
 2) https://pypi.org/project/robotframework-SikuliLibrary/
-3) http://rainmanwy.github.io/robotframework-SikuliLibrary/
-4) https://github.com/rainmanwy/robotframework-SikuliLibrary
-5) 
+3) http://rainmanwy.github.io/robotframework-SikuliLibrary/doc/SikuliLibrary.html
+4) http://rainmanwy.github.io/robotframework-SikuliLibrary/
+5) https://github.com/rainmanwy/robotframework-SikuliLibrary
+6) 
