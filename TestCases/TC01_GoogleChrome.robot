@@ -14,7 +14,8 @@ TC01 Start Browser on Windows
     Sleep       5
     SikuliLibrary.Input Text      google_url_addressbar.png       https://www.google.com/
     Sleep       5
-    Press Keys      button      ENTER
+    Press Special Key       ENTER
+#    Press Keys      button      ENTER
     Sleep       10
     Click       chrome_close_button.png
 
