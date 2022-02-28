@@ -11,13 +11,14 @@ TC01 Start Browser on Windows
     Add Image Path      ../Resources/Images
     Click       Windows_Start_Button.png
     Click       Google_Chrome.png
-    Sleep       5
+    Wait For Image      google_url_addressbar.png
     SikuliLibrary.Input Text      google_url_addressbar.png       https://www.google.com/
     Sleep       5
     Press Special Key       ENTER
 #    Press Keys      button      ENTER
-    Sleep       10
+    Wait Until Screen Contain       chrome_close_button.png
     Text Should Exist       Google
+    Screen Should Contain       Google
     Click       chrome_close_button.png
 
 
